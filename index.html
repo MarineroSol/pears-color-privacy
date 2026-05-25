@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color. — Color. Felt.</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Helvetica Neue', sans-serif;
+            background: #0a0a0a;
+            color: #fafafa;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+            -webkit-font-smoothing: antialiased;
+        }
+        .container {
+            max-width: 480px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            letter-spacing: -0.03em;
+            margin-bottom: 0.5rem;
+        }
+        .tagline {
+            font-size: 1.125rem;
+            font-weight: 400;
+            color: rgba(255, 255, 255, 0.5);
+            margin-bottom: 3rem;
+        }
+        .description {
+            font-size: 1rem;
+            line-height: 1.6;
+            color: rgba(255, 255, 255, 0.7);
+            margin-bottom: 3rem;
+        }
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+            align-items: center;
+        }
+        .links a {
+            color: rgba(255, 255, 255, 0.45);
+            text-decoration: none;
+            font-size: 0.875rem;
+            transition: color 0.2s ease;
+        }
+        .links a:hover {
+            color: rgba(255, 255, 255, 0.85);
+        }
+        .separator {
+            width: 32px;
+            height: 1px;
+            background: rgba(255, 255, 255, 0.12);
+            margin: 1.5rem 0;
+        }
+        .publisher {
+            font-size: 0.8125rem;
+            color: rgba(255, 255, 255, 0.25);
+            margin-top: 3rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Color.</h1>
+        <p class="tagline">Color. Felt.</p>
+        <p class="description">
+            Point your iPhone at the world. Color. names what you see — among 35,000 colors, in real time. No internet. No subscription. No tracking.
+        </p>
+        <!-- <a href="https://apps.apple.com/app/idXXXXXXXXXX" class="app-store-badge">Download on the App Store</a> -->
+        <div class="links">
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="datenschutz.html">Datenschutzerklärung</a>
+            <a href="privacidad.html">Politica de Privacidad</a>
+        </div>
+        <p class="publisher">A Pears app</p>
+    </div>
+</body>
+</html>
